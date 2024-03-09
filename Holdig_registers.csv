@@ -4,13 +4,13 @@ _address	name	description	unit	type	len	factor	offset	formula	role	room	poll	wp	
 1002	WW1_Temp_max	(R/W)WW1 Temp max	°C	uint16be	1	0.1	0		value.temperature	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1003	Status	(R)Status		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1004	Power_timout	(R/W)Power timeout	sec	uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1005	Boost_mode	(R/W)Boost mode 		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
+1005	Boost_mode	(R/W)Boost mode 	0: off, 1: on, 3: relay boost on	uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1006	WW1_min	(R/W)WW1 min	°C	uint16be	1	0.1	0		value.temperature	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1007	Boost_time_1_start	(R/W)Boost time 1 start		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1008	Boost_time_1_stop	(R/W)Boost time 1 stop		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1009	Hour	(R/W)Hour		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1010	Minute	(R/W)Minute		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1011	Second	(R/W)Second		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
+1007	Boost_time_1_start	(R/W)Boost time 1 start	0-23 hrs	uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
+1008	Boost_time_1_stop	(R/W)Boost time 1 stop	0-24 hrs	uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
+1009	Hour	(R/W)Hour	0-23	uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
+1010	Minute	(R/W)Minute	0-59	uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
+1011	Second	(R/W)Second	0-59	uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1012	Boost_activate	(R/W)Boost activate		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1013	AC-THOR_Number	(R/W)AC-THOR Number		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1014	max_Power	(R/W)max Power		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
@@ -37,7 +37,7 @@ _address	name	description	unit	type	len	factor	offset	formula	role	room	poll	wp	
 1047	RH1_night_min	(R/W)RH1 night min	°C	uint16be	1	0.1	0		value.temperature	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1048	RH2_night_min	(R/W)RH2 night min	°C	uint16be	1	0.1	0		value.temperature	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1049	RH3_night_min	(R/W)RH3 night min	°C	uint16be	1	0.1	0		value.temperature	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1050	Night_flag	(R)Night flag		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
+1050	Night_flag	(R)Night flag	0 day 1 night	uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1051	UTC_correction	(R/W)UTC correction		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1052	DST_correction	(R/W)DST correction		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1053	Legionella_interval	(R/W)Legionella interval	days	uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
@@ -52,8 +52,9 @@ _address	name	description	unit	type	len	factor	offset	formula	role	room	poll	wp	
 1062	IL1	(R)IL1	A	uint16be	1	0.1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1063	U_Out	(R)U Out		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1064	Freq	(R)Freq	Hz	uint16be	1	0.001	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1065	Operation_mode	(R/W)Operation mode		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
+1065	Operation_mode	(R/W)Operation mode	1-7 	uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1066	Access_Level	(R/W)Access Level		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1069	Meter_Power	(R)Meter Power		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1070	Control_type	(R/W)Control type		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1071	Pmax_abs	(R)Pmax abs		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
+1077	operation_state	(R)Operation Status	0-5	uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
