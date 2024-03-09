@@ -35,9 +35,7 @@ Die Anbindung an ioBroker erfolgt dabei über den Modbus Adapter
   Nach der Installation des Adapters landen wir automatisch im Konfigurationsmenue.
   Hier bitte die IP-Adresse des AC•THOR eingeben und die anderen Werte wie im Bild ersichtlich einstellen.
 
-  <img src="https://github.com/da-Jimbo/ioBroker.AC-THOR/blob/master/Parameter1.png"></img>
-  
-  <img src="https://github.com/da-Jimbo/ioBroker.AC-THOR/blob/master/Parameter2.png"></img>
+  <img src="https://github.com/da-Jimbo/ioBroker.AC-THOR/blob/master/Parameter1.png"></img><img src="https://github.com/da-Jimbo/ioBroker.AC-THOR/blob/master/Parameter2.png"></img>
 
 # 3. Schritt
 
