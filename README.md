@@ -36,11 +36,14 @@ Die Anbindung an ioBroker erfolgt dabei über den Modbus Adapter
   Hier bitte die IP-Adresse des AC•THOR eingeben und die anderen Werte wie im Bild ersichtlich einstellen.
 
   <img src="https://github.com/da-Jimbo/ioBroker.AC-THOR/blob/master/Parameter1.png"></img>
+  
+  <img src="https://github.com/da-Jimbo/ioBroker.AC-THOR/blob/master/Parameter2.png"></img>
 
 # 3. Schritt
 
-   Kopieren und Einfügen der Registereinstellungen
-   ...
+   unter dem Reiter Holding-Register den Inhalt der Datei Holding_registers.csv einfügen
+    <img src="https://github.com/da-Jimbo/ioBroker.AC-THOR/blob/master/TSV.png"></img>
+
 
 # 4. Inbetriebnahme und Regelung
 
