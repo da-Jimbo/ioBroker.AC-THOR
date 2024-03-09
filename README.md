@@ -45,6 +45,8 @@ Die Anbindung an ioBroker erfolgt dabei über den Modbus Adapter
 
   und mit Import bestätigen.
 
+Mit Speichern und Schließen wird die Instanz gestartet.
+
 
 # 4. Inbetriebnahme und Regelung
 
