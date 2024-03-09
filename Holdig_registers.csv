@@ -15,20 +15,8 @@ _address	name	description	unit	type	len	factor	offset	formula	role	room	poll	wp	
 1013	AC-THOR_Number	(R/W)AC-THOR Number		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1014	max_Power	(R/W)max Power		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1015	tempchip	(R)tempchip	°C	uint16be	1	0.1	0		value.temperature	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1016	Control_Firmware_Version	Control Firmware Version		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1017	PS_firmware_version	PS firmware version		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1018	AC-THOR_serial_number	AC-THOR serial number		string	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1019	AC-THOR_serial_number	AC-THOR serial number		string	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1020	AC-THOR_serial_number	AC-THOR serial number		string	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1021	AC-THOR_serial_number	AC-THOR serial number		string	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1022	AC-THOR_serial_number	AC-THOR serial number		string	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1023	AC-THOR_serial_number	AC-THOR serial number		string	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1024	AC-THOR_serial_number	AC-THOR serial number		string	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1025	AC-THOR_serial_number	AC-THOR serial number		string	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1026	Boost_time_2_start	(R/W)Boost time 2 start		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1027	Boost_time_2_stop	(R/W)Boost time 2 stop		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1028	Control_Firmware_sub_Version	(R)Control Firmware sub Version		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
-1029	Control_Firmware_Update_Available	(R)Control Firmware Update Available		uint16be	1	1	0		value	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1030	Temp_2	(R)Temp 2	°C	uint16be	1	0.1	0		value.temperature	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1031	Temp_3	(R)Temp 3	°C	uint16be	1	0.1	0		value.temperature	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
 1032	Temp_4	(R)Temp 4	°C	uint16be	1	0.1	0		value.temperature	enum.rooms.komplett.basement__cellar.boiler_room	true	false	false	false
