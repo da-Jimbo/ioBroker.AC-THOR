@@ -26,10 +26,6 @@ Die Anbindung an ioBroker erfolgt dabei über den Modbus Adapter
 
   Installation des Modbus Adapter.
 
-  Jeder der an diesem Punkt nicht weiß wie man in ioBroker einen Adapter installiert
-  sollte sich bitte erst einmal grundsätzlich mit der Installation und Einrichtung
-  von ioBroker vertraut machen. ;-)
-
   Bitte im ioBroker Admin unter Adapter den Modbusadapter auswählen und mit einem Klick auf das "+" Symbol hinzufügen.
 
 # 2. Schritt
