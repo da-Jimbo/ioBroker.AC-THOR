@@ -42,14 +42,18 @@ Die Anbindung an ioBroker erfolgt dabei über den Modbus Adapter
 # 3. Schritt
 
    unter dem Reiter Holding-Register den Inhalt der Datei Holding_registers.csv einfügen
+   
     <img src="https://github.com/da-Jimbo/ioBroker.AC-THOR/blob/master/TSV.png"></img>
+
+  und mit Import bestätigen.
 
 
 # 4. Inbetriebnahme und Regelung
 
-<img src="https://user-images.githubusercontent.com/819464/50450514-e6fd0d00-092e-11e9-8232-76c392d5bdfd.jpg"></img>
+Werte können z.B. per Blockly in den Datenpunkt geschrieben werden.(alle 10sek.)
 
-  ...
+<img src="https://github.com/da-Jimbo/ioBroker.AC-THOR/blob/master/Werteschreiben.png"></img>
+
 
 
 
