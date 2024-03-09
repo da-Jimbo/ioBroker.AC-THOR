@@ -61,6 +61,9 @@ Werte können z.B. per Blockly in den Datenpunkt geschrieben werden.(alle 10sek.
 
 ## Changelog
 
+  ### 1.0.0 (09.03.2024)
+* da-Jimbos Version.
+
   ### 0.1.0 (25.12.2018)
 * First (Initial) Version.
 
